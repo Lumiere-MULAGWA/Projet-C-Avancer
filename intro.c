@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stlib.h>
+
+char** prenon(int nombre);
 int main()
 {
     int entiere ;
