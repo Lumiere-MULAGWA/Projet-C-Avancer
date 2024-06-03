@@ -1,0 +1,1 @@
+gcc -Wall exercices1.c -o main
