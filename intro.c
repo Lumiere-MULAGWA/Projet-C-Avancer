@@ -7,4 +7,5 @@ int main()
     printf("la valeur de l'entier vaut %d: \n",entiere);
    
     return 0;
+    
 }
