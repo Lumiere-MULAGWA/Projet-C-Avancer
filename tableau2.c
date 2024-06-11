@@ -2,9 +2,11 @@
 
 int main()
 {
-    int tableau[2][3]={
+    int tableau[4][3]={
                         {1,2,4},
-                        {7,8,9}
+                        {7,8,9},
+    {10,13,34},
+    {90,32,41}
                     };
 
     int *ptr = tableau;
