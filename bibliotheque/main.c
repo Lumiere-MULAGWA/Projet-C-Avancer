@@ -146,8 +146,7 @@ void returnBook() {
     }
 }
 void generateReports() {
-    // Générer des rapports sur les livres empruntés, les retards de retour, les livres les plus empruntés, etc.
-    // ...
+  //generer un rapport 
 }
 
 int main() {
