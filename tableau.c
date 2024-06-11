@@ -17,12 +17,12 @@ int main()
 
     //parcourir tous les elements du tableau a l'aide de ptr
 
-printf("\n Affichage du tableau\n");
-printf("--------------------------\n");
-    for(int i = 0 ;i <=4;i++){
-        printf("\ttableau[%d] = %d \n",i,*ptr);
-        ptr =ptr + 1;
-
-    }
-    return 0;
+    printf("\n Affichage du tableau\n");
+    printf("--------------------------\n");
+        for(int i = 0 ;i <=4;i++)
+        {
+            printf("\ttableau[%d] = %d \n",i,*ptr);
+            ptr =ptr + 1;
+        }
+        return 0;
 }
