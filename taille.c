@@ -28,9 +28,13 @@ char *getprenom(int *nombre){
       printf("%d ) %c ", i+1 , prenomfin[i]);  
   }
   
+  
 }
 
 char *getprenom(int nombre)
 {
     return NULL;
+}
+int random (int nombre){
+
 }
