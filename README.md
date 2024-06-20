@@ -1,2 +1,2 @@
 # Projet-C-Avancer
-repository sur le c avancer
+repository sur le cours de c avancé a l'université don Bosco de Lubumbashi
