@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    FILE *file;
+    char nomFichier[100];
+    
+    printf("Entrez le nom du fichier : ");
+    scanf("%s", nomFichier);
+    file = fopen(nomFichier, "r");
+    
+    if (file == NULL) {
+        printf("Impossible d'ouvrir le fichier.\n");
+        return 1;
+    }
+    fseek(file, 0, SEEK_END);
+
+    long tailleFichier = ftell(file);
+    
+    printf("La taille du fichier est de %ld octets.\n", tailleFichier);
+    
+    fclose(file);
+    
+    return 0;
+}
