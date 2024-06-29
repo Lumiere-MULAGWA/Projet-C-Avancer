@@ -5,6 +5,7 @@
 
 
 void afficherEtudiant (Etudiant *);
+void tostring(Étudiant *):
 void modifierEtudiant (Etudiant *,char *nom,char *postNom,
                          char *prenom,char genre,Date dateNaiss);
 
