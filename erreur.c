@@ -37,7 +37,7 @@ int main(){
             }
         }
         else{
-            printf("la date %d / %d / %d est plus grande que la date %d / %d / %d \n",jour2 , mois2 , anne2,jour1,mois1 , anne1);
+            printf( "la date est incorrect");
         }
          
 
