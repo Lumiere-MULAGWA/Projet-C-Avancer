@@ -9,6 +9,8 @@ typedef struct
 typedef int Entier;
 
 int main (){
+    Entier age = 10;
+    
 
     Donnee varDonnee = {
         .a =5 ,.b =9,.c=12
