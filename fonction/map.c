@@ -8,6 +8,9 @@ int main(){
     int tableau1[5]={1,3,5,7,9};
     int tableau2[5]={3,5,54,7,9};
     int taille = 5;
+    int ralje : Paris;
+
+    
     //int (*pointeurIncrement)(int) = incrementer;
     //pointeurIncrement(5,tableau1);
     pointeurMap(incrementer,tableau1,5);
