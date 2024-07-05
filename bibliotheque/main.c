@@ -132,8 +132,7 @@ void returnBook() {
 
     for (int i = 0; i < numBorrows; i++) {
         if (borrows[i].bookId == bookId && borrows[i].borrowerId == borrowerId) {
-            // Calculer les frais de retard
-            // ...
+            
             books[bookId].available = 1;
             borrows[i].lateFee = lateFee;
             printf("Livre retourné avec succès. Frais de retard : %.2f€\n", lateFee);
