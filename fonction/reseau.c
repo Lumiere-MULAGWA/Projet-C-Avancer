@@ -23,7 +23,7 @@ NeuralNetwork* create_neural_network(int num_inputs, int num_hidden_layers, int*
     }
     nn->num_outputs = num_outputs;
 
-    // Allouer de l'espace pour les poids et les biais
+    
     nn->weights = (double**)malloc((num_hidden_layers + 1) * sizeof(double*));
     nn->biases = (double*)malloc((num_hidden_layers + 1) * sizeof(double));
 
