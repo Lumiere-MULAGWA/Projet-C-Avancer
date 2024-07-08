@@ -31,9 +31,9 @@ NeuralNetwork* create_neural_network(int num_inputs, int num_hidden_layers, int*
         int layer_size = (i == 0) ? num_inputs : nn->hidden_layer_sizes[i - 1];
         nn->weights[i] = (double*)malloc(layer_size * ((i == num_hidden_layers) ? num_outputs : nn->hidden_layer_sizes[i]) * sizeof(double));
         for (int j = 0; j < layer_size * ((i == num_hidden_layers) ? num_outputs : nn->hidden_layer_sizes[i]); j++) {
-            nn->weights[i][j] = ((double)rand() / RAND_MAX) * 2 - 1; // Valeurs aléatoires entre -1 et 1
+            nn->weights[i][j] = ((double)rand() / RAND_MAX) * 2 - 1; 
         }
-        nn->biases[i] = ((double)rand() / RAND_MAX) * 2 - 1; // Valeur aléatoire entre -1 et 1
+        nn->biases[i] = ((double)rand() / RAND_MAX) * 2 - 1; 
     }
 
     return nn;
