@@ -57,7 +57,7 @@ int main() {
 
     NeuralNetwork* nn = create_neural_network(num_inputs, num_hidden_layers, hidden_layer_sizes, num_outputs);
 
-    // Utiliser le réseau de neurones pour des prédictions, de l'entraînement, etc.
+    
 
     destroy_neural_network(nn);
     return 0;
