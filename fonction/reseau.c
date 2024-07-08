@@ -26,8 +26,7 @@ NeuralNetwork* create_neural_network(int num_inputs, int num_hidden_layers, int*
     
     nn->weights = (double**)malloc((num_hidden_layers + 1) * sizeof(double*));
     nn->biases = (double*)malloc((num_hidden_layers + 1) * sizeof(double));
-
-    // Initialiser les poids et les biais de manière aléatoire
+    
     for (int i = 0; i < num_hidden_layers + 1; i++) {
         int layer_size = (i == 0) ? num_inputs : nn->hidden_layer_sizes[i - 1];
         nn->weights[i] = (double*)malloc(layer_size * ((i == num_hidden_layers) ? num_outputs : nn->hidden_layer_sizes[i]) * sizeof(double));
