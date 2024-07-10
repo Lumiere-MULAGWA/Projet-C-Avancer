@@ -5,7 +5,7 @@
 
 
 const char* prenoms[] = {
-    "Alice", "Bob", "Charlie", "David", "Eva", "Frank", "Grace", "Hannah"
+    "Alice", "Bob", "Charlie", "David", "Eva", "Frank", "Grace", "Hannah","Chan"
 };
 typedef struct {
     char* nom;
