@@ -8,8 +8,9 @@ int main()
                         {10,13,34},
                         {90,32,41},
     {321,45,7}
-                    };
-
+                  
+};
+    char *len [] = { "hello"};
     int *ptr = tableau;
     //boucle pour afficher les adresses
     printf("Affichage des emplacements memoires \n");
@@ -28,5 +29,6 @@ int main()
         printf("element : %d\n",*ptr);
         ptr ++;
     }
+    
     
 }
