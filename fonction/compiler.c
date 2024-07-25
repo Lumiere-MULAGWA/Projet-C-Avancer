@@ -17,7 +17,8 @@ typedef enum {
     TOKEN_DIVIDE,
     TOKEN_LPAREN,
     TOKEN_RPAREN,
-    TOKEN_END
+    TOKEN_END,
+Token_LUM
 } TokenType;
 
 typedef struct {
