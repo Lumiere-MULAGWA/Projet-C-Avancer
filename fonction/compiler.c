@@ -3,6 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 
+
 #define MAX_SYMBOLS 100
 
 typedef enum {
