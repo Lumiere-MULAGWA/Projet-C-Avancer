@@ -36,6 +36,7 @@ typedef struct {
     int count;
 } SymbolTable;
 
+
 Token getNextToken(const char **input) {
     while (**input == ' ') (*input)++; // Skip spaces
 
